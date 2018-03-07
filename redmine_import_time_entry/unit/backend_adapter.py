@@ -4,7 +4,7 @@
 
 from odoo.tools.translate import _
 import odoo.addons.connector.exception as cn_exception
-from redmine import exceptions
+from redminelib import exceptions
 from odoo.addons.connector_redmine.unit.backend_adapter import (
     RedmineAdapter)
 from odoo.addons.connector_redmine.backend import redmine

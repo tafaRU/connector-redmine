@@ -15,7 +15,7 @@
         'hr_timesheet_sheet',
     ],
     'external_dependencies': {
-        'python': ['redmine'],
+        'python': ['redminelib'],
     },
     'data': [
         'security/ir.model.access.csv',

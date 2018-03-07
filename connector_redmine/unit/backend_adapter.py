@@ -12,7 +12,7 @@ import logging
 _logger = logging.getLogger(__name__)
 
 try:
-    from redmine import Redmine, exceptions
+    from redminelib import Redmine, exceptions
 except (ImportError, IOError) as err:
     _logger.warning('python-redmine not installed!')
 
