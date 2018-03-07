@@ -18,23 +18,23 @@ Be aware that the user login must be the same in both systems.
 Installation
 ============
 
-# Install Redmine
+#. Install Redmine
     Refer to http://www.redmine.org/projects/redmine/wiki/redmineinstall
 
-# Install python-redmine
+#. Install python-redmine
     sudo pip install python-redmine
 
 
 Configuration
 =============
 
-# Go to Connectors -> Redmine -> Backends
+#. Go to Connectors -> Redmine -> Backends
 
-# Create a backend
+#. Create a backend
     - Location: the url of the Redmine service
     - Key: the REST API key of your Redmine instance
 
-# Click on the button to test the connection
+#. Click on the button to test the connection
 
 Usage
 =====
@@ -45,12 +45,7 @@ To use this module, you need to:
 
 .. image:: https://odoo-community.org/website/image/ir.attachment/5784_f2813bd/datas
    :alt: Try me on Runbot
-   :target: https://runbot.odoo-community.org/runbot/169/8.0
-
-Known issues / Roadmap
-======================
-
- - None
+   :target: https://runbot.odoo-community.org/runbot/169/10.0
 
 Bug Tracker
 ===========
@@ -75,6 +70,7 @@ Contributors
 * Virgil Dupras <virgil.dupras@savoirfairelinux.com>
 * Guillaume Auger <guillaume.auger@savoirfairelinux.com>
 * David Dufresne <david.dufresne@savoirfairelinux.com>
+* Alex Comba <alex.comba@agilebg.com>
 
 
 Maintainer

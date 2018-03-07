@@ -14,23 +14,16 @@ to this field, but every project must have a different value for this field.
 In Odoo, you must create an analytic account for each Redmine project.
 The value of the custom field must be written in the field ref ('Reference') of the analytic account.
 
-
-Installation
-============
-
-Nothing to do.
-
-
 Configuration
 =============
 
-# Go to Connectors -> Redmine -> Backends and select your Redmine backend
+#. Go to Connectors -> Redmine -> Backends and select your Redmine backend
 
-# Enter the name of the custom field used to identify projects in Redmine
+#. Enter the name of the custom field used to identify projects in Redmine
 
-# Click on the button to test the custom field
+#. Click on the button to test the custom field
 
-# The field "Time Entries - Number of days" is by default set to 14. This means that the connector will
+#. The field "Time Entries - Number of days" is by default set to 14. This means that the connector will
     only fetch time entries that have a date between 2 weeks ago and now. Of course, the connector will only
     create single jobs for Redmine records that have been updated since the last update.
 
@@ -48,7 +41,7 @@ To use this module, you need to:
 
 .. image:: https://odoo-community.org/website/image/ir.attachment/5784_f2813bd/datas
    :alt: Try me on Runbot
-   :target: https://runbot.odoo-community.org/runbot/169/8.0
+   :target: https://runbot.odoo-community.org/runbot/169/10.0
 
 Known issues / Roadmap
 ======================
@@ -82,6 +75,7 @@ Contributors
 ------------
 * Maxime Chambreuil <maxime.chambreuil@savoirfairelinux.com>
 * David Dufresne <david.dufresne@savoirfairelinux.com>
+* Alex Comba <alex.comba@agilebg.com>
 
 Maintainer
 ----------
